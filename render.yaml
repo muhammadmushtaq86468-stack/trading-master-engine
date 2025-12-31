@@ -1,1 +1,5 @@
-
+services:
+  - type: worker
+    name: trading-master-engine
+    runtime: python
+    startCommand: python main.py
